@@ -9,7 +9,7 @@ class PersonIntel(BaseModel):
     topics_of_interest: List[str] = Field(
         description="Topics of interest of the person")
     ice_breakers: List[str] = Field(
-        description="Ice breakers to start a conversation with the person")
+        description="Create ice breakers to start a conversation with the person")
 
     def to_dict(self):
         return {
